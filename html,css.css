@@ -1,0 +1,280 @@
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+.main-container {
+  max-width: 200px;
+}
+
+.html{
+  width:640px;
+  height:631px;
+  background:#eb5801;
+  
+  margin-top:0px;
+  margin-left:00px;
+}
+
+.block-html{
+  color:#fcfcfc;
+  margin-left:40vh;
+  font-size:3.5rem;
+}
+
+.block-html :hover{
+  color: #923500;
+  transition: 0.5s ease-out
+ }
+
+
+
+.css{
+  width:640px;
+  height:631px;
+  background-color:#019fe0;
+
+  margin-left:640px;
+  margin-top:-631px
+}
+
+#css{
+  margin-top:65px;
+}
+
+.block-css{
+  color:#fcfcfc;
+  margin-left:40vh;
+  font-size:3.5rem;
+}
+
+.block-css :hover{
+ color: #00668e;
+ transition: 0.5s ease-out
+}
+
+
+
+
+/*   html  */
+
+.row1 {
+  margin-right:1000px;
+  margin-left:px;
+}
+
+.row1 .card2 {
+  width: calc(960px / 3);
+  flex-grow: 1;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  transition: 0.4s box-shadow;
+  background: #ff8f4d;
+  border-radius: 0;
+  border:0 ;
+
+  width:300px;
+  margin-left:170px;
+  margin-top:100px;
+}
+
+.card1.done {
+  background: var(--green);
+  color: #fff;
+}
+
+.card1:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.22);
+}
+
+
+
+
+.modal1 {
+  display: none;
+}
+
+.modal1.open {
+  display: block;
+  position: fixed;
+  top: 50px;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 500px;
+  background:#ff8f4d;
+  z-index: 200;
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  border-radius: 10px 10px 5px 5px;
+}
+
+.modal1 h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.modal1 p {
+  margin-bottom: 1rem;
+}
+
+.modal1 hr {
+  margin-bottom: 1rem;
+  border: none;
+  height: 2px;
+  background: var(--border-color);
+}
+
+.modal1.open + .modal-backdrop1 {
+  display: block;
+}
+
+.modal-backdrop1 {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/*   html  */
+
+
+
+
+
+/*   css  */
+
+.row2 {
+  margin-right:1000px;
+  margin-left:px;
+  background-color:#000
+}
+
+.row2 .card {
+  width: calc(960px / 3);
+  flex-grow: 1;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.card2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  transition: 0.4s box-shadow;
+  background: #48bff0;
+  border-radius:0;
+  border:0 ;
+
+  width:300px;
+  margin-left:155px;
+  margin-top:98px;
+}
+
+.card2.done {
+  background: var(--green);
+  color: #fff;
+}
+
+.card2:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.22);
+}
+
+
+
+
+.modal2 {
+  display: none;
+}
+
+.modal2.open {
+  display: block;
+  position: fixed;
+  top: 50px;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 500px;
+  background: #48bff0;;
+  z-index: 200;
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  border-radius: 10px 10px 5px 5px;
+}
+
+.modal2 h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.modal2 p {
+  margin-bottom: 1rem;
+}
+
+.modal2 hr {
+  margin-bottom: 1rem;
+  border: none;
+  height: 2px;
+  background: var(--border-color);
+}
+
+.modal2.open + .modal-backdrop2 {
+  display: block;
+}
+
+.modal-backdrop2 {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+/*   css  */
+
+
+
+
+
+.beautiful-button {
+  width:300px;
+  background-color: #f39c12; /* Цвет фона кнопки */
+  color: #ffffff; /* Цвет текста */
+  border: none; /* Убираем рамку */
+  padding: 15px 30px; /* Отступы кнопки */
+  font-size: 1.2em; /* Размер шрифта */
+  border-radius: 5px; /* Скругленные углы */
+  cursor: pointer; /* Указатель мыши при наведении */
+  transition: background-color 0.3s, transform 0.2s; /* Плавный переход цвета и эффекта */
+                    
+  margin-top:10px; /* размеры*/
+  margin-left:490px; /* размеры*/
+}
+                
+.beautiful-button:hover {
+  background-color: #e67e22; /* Цвет фона кнопки при наведении */
+  transform: scale(1.05); /* Увеличение кнопки при наведении */
+}
+                
+.beautiful-button:active {
+  transform: scale(0.95); /* Уменьшение кнопки при нажатии */
+}

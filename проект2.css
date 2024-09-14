@@ -1,0 +1,168 @@
+.game{
+    height:400px ;
+    width:  800px;
+    margin:auto;
+    border-bottom: 2px solid #FFD700;
+    margin-top: 10px;
+}
+#dino{
+    width: 55px;
+    height: 55px;
+    background-image:url("https://chromedino.com/img/emojis/1-night.png");
+    background-size: 55px 55px;
+    position: relative;
+    top:343px;
+}
+#cactus{
+    width: 65px;
+    height: 80px;
+    background-image:url("https://chromedino.com/img/emojis/4-green.png");
+    background-size: 65px 80px;
+    position: relative;
+    top:263px;
+    left: 750px;
+    animation:cactus_movement 3s infinite ease-in ;
+}
+/*                                                   animation-timing-function
+ease
+Анимация начинается медленно, затем ускоряется и к концу движения опять замедляется. Аналогично cubic-bezier(0.25,0.1,0.25,1).
+ease-in
+Анимация медленно начинается, к концу ускоряется. Аналогично cubic-bezier(0.42,0,1,1).
+ease-out
+Анимация начинается быстро, к концу замедляется. Аналогично cubic-bezier(0,0,0.58,1).
+ease-in-out
+Анимация начинается и заканчивается медленно. Аналогично cubic-bezier(0.42,0,0.58,1).
+linear
+Одинаковая скорость от начала и до конца.
+step-start
+Как таковой анимации нет. Стилевые свойства сразу же принимают конечное значение.
+step-end
+Как таковой анимации нет. Стилевые свойства находятся в начальном значении заданное время, затем сразу же принимают конечное значение.
+steps
+Ступенчатая функция, имеющая заданное число шагов.
+animation-timing-function: steps(<число>, start | end)
+Здесь: <число> — целое число больше нуля; start — задаёт полунепрерывную снизу функцию; end — задаёт полунепрерывную сверху функцию.
+ cubic-bezier
+Задаёт функцию движения в виде кривой Безье.*/
+@keyframes cactus_movement{
+    0%{
+        left:770px;
+    }
+    100%{
+        left:-25px;
+    }
+}
+.dinoJump{
+    animation: dinoJump 0.7s  linear;
+}
+@keyframes dinoJump{
+    0%{
+        top: 343px;
+    }
+    25%{
+        top: 282px;
+    }
+    50%{
+        top: 240px;
+    }
+    75%{
+        top: 282px;
+    }
+    100%{
+        top: 343px;
+    }
+}
+#sky{
+    width: 80px;
+    height: 60px;
+    background-image:url("https://www.isnotdown.com/assets/pics/cloudart.png");
+    background-size: 80px 60px;
+    position: relative;
+    top:53px;
+    left: 750px;
+    animation:sky_movement 15s infinite linear ;
+}
+
+
+#sun{
+    width: 80px;
+    height: 70px;
+    background-image:url("https://info-grad.com/wa-data/public/shop/img/%D0%BE%D0%B1%D0%B5%D1%80%D0%B5%D0%B3%20%D1%8F%D1%80%D0%B8%D0%BB%D0%BE.png");
+    background-size: 80px 70px;
+    position: relative;
+    top:0px;
+    left: 680px;
+    bottom: 400px;
+    animation:sun_movement 13s infinite linear ;
+}
+@keyframes sun_movement{
+    0%{
+        left:770px;
+    }
+    100%{
+        left:-35px; 
+    }
+}
+@keyframes sky_movement{
+    0%{
+        left:770px;
+    }
+    100%{
+        left:-35px; 
+    }
+}
+#score{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 90px;
+    right:380px;
+}
+
+
+.button {
+    background-color: transparent;
+    padding: 8px;
+    border: 2px solid #222;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    color: #222;
+    outline: none;
+    cursor: pointer;
+
+    margin-top:100px;
+    margin-left:600px;
+  }
+  
+  .button:hover {
+    background-color: #222;
+    color: #ffffff;
+    transition: all 0.275s ease-in;
+  }
+
+
+
+  .beautiful-button {
+    width:300px;
+    background-color: #f39c12; /* Цвет фона кнопки */
+    color: #ffffff; /* Цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 15px 30px; /* Отступы кнопки */
+    font-size: 1.2em; /* Размер шрифта */
+    border-radius: 5px; /* Скругленные углы */
+    cursor: pointer; /* Указатель мыши при наведении */
+    transition: background-color 0.3s, transform 0.2s; /* Плавный переход цвета и эффекта */
+                      
+    margin-top:10px; /* размеры*/
+    margin-left:490px; /* размеры*/
+  }
+                  
+  .beautiful-button:hover {
+    background-color: #e67e22; /* Цвет фона кнопки при наведении */
+    transform: scale(1.05); /* Увеличение кнопки при наведении */
+  }
+                  
+  .beautiful-button:active {
+    transform: scale(0.95); /* Уменьшение кнопки при нажатии */
+  }

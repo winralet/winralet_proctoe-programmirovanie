@@ -1,0 +1,394 @@
+.otvet1{
+   margin-left:480px;
+
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+   }
+   
+   .vopros1{
+    margin-left: 480px;
+    font-size:3rem;
+   
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    } 
+    
+   .variant1{
+    margin-left: 120px;
+
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+   }
+
+   #q1{
+    margin-left: 90px; 
+
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+   }
+
+
+
+
+
+   .otvet2{
+      margin-left:420px ;
+
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+   }
+      
+    
+      .vopros2{
+       margin-left: 490px;
+       margin-top:100px;
+       font-size:3rem;
+
+       align-content: center;
+       align-items: center;
+       justify-content: center;
+       } 
+       
+      .variant2{
+       margin-left: 12px;
+
+       align-content: center;
+       align-items: center;
+       justify-content: center;
+      }
+   
+      #q2{
+       margin-left: 150px; 
+
+       align-content: center;
+       align-items: center;
+       justify-content: center;
+      }
+
+
+
+
+
+      .otvet3{
+         margin-left:390px ;
+
+         align-content: center;
+         align-items: center;
+         justify-content: center;
+   
+      }
+         
+       
+         .vopros3{
+          margin-left: 500px;
+          margin-top:100px;
+          font-size:3rem;
+          
+          align-content: center;
+          align-items: center;
+          justify-content: center;
+          } 
+          
+         .variant3{
+          margin-left: 130px;
+
+          align-content: center;
+          align-items: center;
+          justify-content: center;
+         }
+      
+         #q3{
+          margin-left: 180px;   
+
+          align-content: center;
+          align-items: center;
+          justify-content: center;
+         }
+
+
+
+
+        .otvet4{
+         margin-left:430px;
+
+         align-content: center;
+         align-items: center;
+         justify-content: center;
+   
+      }
+         .vopros4{
+            margin-left: 480px;
+            margin-top:100px;
+            font-size:3rem;
+            
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            } 
+            
+           .variant4{
+            margin-left:140px;
+  
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+           }
+        
+           #q4{
+            margin-left: 140px;   
+  
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+           }
+
+
+
+
+
+           .otvet5{
+            margin-left:430px ;
+   
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+      
+         }
+            .vopros5{
+               margin-left: 460px;
+               margin-top:100px;
+               font-size:3rem;
+               
+               align-content: center;
+               align-items: center;
+               justify-content: center;
+               } 
+               
+              .variant5{
+               margin-left:200px;
+     
+               align-content: center;
+               align-items: center;
+               justify-content: center;
+              }
+           
+              #q5{
+               margin-left: 140px;   
+     
+               align-content: center;
+               align-items: center;
+               justify-content: center;
+              }
+
+
+
+
+
+              .otvet6{
+               margin-left:470px ;
+      
+               align-content: center;
+               align-items: center;
+               justify-content: center;
+         
+            }
+               .vopros6{
+                  margin-left: 460px;
+                  margin-top:100px;
+                font-size:3rem;
+                  
+                  align-content: center;
+                  align-items: center;
+                  justify-content: center;
+                  } 
+                  
+                 .variant6{
+                  margin-left:150px;
+        
+                  align-content: center;
+                  align-items: center;
+                  justify-content: center;
+                 }
+              
+                 #q6{
+                  margin-left: 100px;   
+        
+                  align-content: center;
+                  align-items: center;
+                  justify-content: center;
+                 }
+
+
+
+   .block1 {
+      width: 750px;
+      height: 4700px;
+      background: #1c414e75;
+      background-size: 600px 200px;
+      position: relative;
+      top:150px;
+      left:250px;
+      border: #277591 solid 3.4px;
+      border-radius: 10px 10px 10px 10px;
+      z-index:10;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      }
+
+      .content1{
+         justify-content: left;
+         width:auto;
+         height: fit-content;
+         margin-top: -350px;
+         margin-left: -300px;
+         margin-right: 10px;
+         font-size: 2.0rem;
+         color:  #bebebe; 
+      }
+
+      
+
+
+      .block2 {
+         width: 750px;
+         height: 270px;
+         background: #1c414e75;
+         background-size: 600px 200px;
+         position: relative;
+         top:50px;
+         left:250px;
+         border: #277591 solid 3.4px;
+         border-radius: 10px 10px 10px 10px;
+         z-index:10;
+         display: flex;
+         flex-direction: column;
+         align-content: center;
+         align-items: center;
+         justify-content: center;
+         overflow: hidden;
+         }
+   
+         .content2{
+            justify-content: left;
+            width:auto;
+            height: fit-content;
+            margin-top: 00px;
+            margin-left: -00px;
+            margin-right: 10px;
+            font-size: 2.0rem;
+            color:  #d14848;
+         }
+
+
+
+
+         .block3 {
+            width: 750px;
+            height: 270px;
+            background: #1c414e75;
+            background-size: 600px 200px;
+            position: relative;
+            top:145px;
+            left:250px;
+            border: #277591 solid 3.4px;
+            border-radius: 10px 10px 10px 10px;
+            z-index:10;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            }
+      
+            .content3{
+               justify-content: left;
+               width:auto;
+               height: fit-content;
+               margin-top: 10px;
+               margin-left: -35px;
+               margin-right: 10px;
+               font-size: 2.0rem;
+               color:  #d14848;
+            }
+
+         .inst{
+           margin-left: 270px;
+         }
+
+         .podval{
+          margin-left:-0px;
+          margin-top:10px;
+         }
+
+         
+     body{
+         background-image:url(data/xev/задний.jpg) ;
+         background-color: #1f3472;
+         background-size: cover;
+         font-weight: 100;
+         margin: 0;
+         
+         font-size: 1.8rem;
+         text-shadow: rgb(12, 164, 224) 1px 0 10px;
+         color: #11d4add0; 
+
+     }
+     @font-face {
+        font-family:Georgia, 'Times New Roman', Times, serif ;
+        src: url(data/font/)
+     }
+    
+     .checkbox{
+        color: #000;
+      
+       display: flex;
+       justify-content: center;
+       align-items: center; 
+     }
+
+    #finish{
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+
+     margin-left:50px
+    }
+    
+     
+    .beautiful-button {
+     width:300px;
+     background-color: #f39c12; /* Цвет фона кнопки */
+     color: #ffffff; /* Цвет текста */
+     border: none; /* Убираем рамку */
+     padding: 15px 30px; /* Отступы кнопки */
+     font-size: 1.2em; /* Размер шрифта */
+     border-radius: 5px; /* Скругленные углы */
+     cursor: pointer; /* Указатель мыши при наведении */
+     transition: background-color 0.3s, transform 0.2s; /* Плавный переход цвета и эффекта */
+
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+                       
+     margin-top:10px; /* размеры*/
+     margin-left:0; /* размеры*/
+   }
+                   
+   .beautiful-button:hover {
+     background-color: #e67e22; /* Цвет фона кнопки при наведении */
+     transform: scale(1.05); /* Увеличение кнопки при наведении */
+   }
+                   
+   .beautiful-button:active {
+     transform: scale(0.95); /* Уменьшение кнопки при нажатии */
+   }

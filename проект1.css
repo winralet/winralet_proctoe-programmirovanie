@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.container h2 {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.color {
+  color: #49a6e9;
+}
+
+.btn {
+  background-color: transparent;
+  padding: 8px;
+  border: 2px solid #222;
+  border-radius: 5px;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  color: #222;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #222;
+  color: #ffffff;
+  transition: all 0.275s ease-in;
+}
+
+
+.button {
+  background-color: transparent;
+  padding: 8px;
+  border: 2px solid #222;
+  border-radius: 5px;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  color: #222;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #222;
+  color: #ffffff;
+  transition: all 0.275s ease-in;
+}
+
+.beautiful-button {
+  width:300px;
+  background-color: #f39c12; /* Цвет фона кнопки */
+  color: #ffffff; /* Цвет текста */
+  border: none; /* Убираем рамку */
+  padding: 15px 30px; /* Отступы кнопки */
+  font-size: 1.2em; /* Размер шрифта */
+  border-radius: 5px; /* Скругленные углы */
+  cursor: pointer; /* Указатель мыши при наведении */
+  transition: background-color 0.3s, transform 0.2s; /* Плавный переход цвета и эффекта */
+                    
+  margin-top:10px; /* размеры*/
+  margin-left:49px; /* размеры*/
+
+}
+                
+.beautiful-button:hover {
+  background-color: #e67e22; /* Цвет фона кнопки при наведении */
+  transform: scale(1.05); /* Увеличение кнопки при наведении */
+}
+                
+.beautiful-button:active {
+  transform: scale(0.95); /* Уменьшение кнопки при нажатии */
+}

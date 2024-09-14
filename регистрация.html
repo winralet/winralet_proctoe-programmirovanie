@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/128/1049/1049443.png" type="image/x-icon">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="регистрация.css">
+<title>Регистрация и Вход</title>
+</head>
+<body>
+    <div class="container">
+        <div id="auth">
+            <h2 id="auth_title">Вход</h2>
+            <input type="text" id="username" placeholder="Имя пользователя" required>
+            <input type="password" id="password" placeholder="Пароль" required>
+            <button id="auth_button">Войти</button>
+            <p>Нет аккаунта? <span id="toggle">Зарегистрироваться</span></p>
+        </div>
+
+        <div id="register" style="display: none;">
+            <h2>Регистрация</h2>
+            <input type="text" id="reg_username" placeholder="Имя пользователя" required>
+            <input type="password" id="reg_password" placeholder="Пароль" required>
+            <button id="register_button">Зарегистрироваться</button>
+            <p>Уже есть аккаунт? <span id="toggle_login">Войти</span></p>
+        </div>
+
+        <div id="dashboard" style="display: none;">
+            <h2>Личный кабинет</h2>
+            <p>Кабинет: <span id="user_display"></span>  
+            <p>после регистрации вы получите 3 интересных проекта на сайтах. И вот они:</p>
+             <br>
+
+             <a id="cait" href="проект1.html">1 проект</a> <a id="cait" href="проект2.html">2 проект</a> <a id="cait" href="проект3.html">3 проект</a> 
+
+             <br>
+             <br>
+            <button class="beautiful-button" onclick="window.location.href='index.html';">Выйти</button>  
+            <button id="logout_button" onclick="window.location.href='index.html';"><p class="p">выйти из кабинета</p></button>
+        </div>
+          
+    </div>
+    
+
+    <script src="регистрация.js"></script>
+</body>
+</html>
